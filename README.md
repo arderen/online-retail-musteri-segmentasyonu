@@ -37,8 +37,6 @@ Proje, aşağıdaki üç araştırma sorusuna yanıt aramaktadır:
 | **Tarih aralığı** | 01.12.2010 — 09.12.2011 |
 | **Temiz boyut** | 397.884 satır, 4.338 benzersiz müşteri |
 
-> **Not:** `data/data.csv` dosyası boyutu nedeniyle repoya eklenmemiştir. Aşağıdaki kurulum adımlarında indirme talimatları verilmektedir.
-
 ---
 
 ## 🛠️ Kullanılan Kütüphaneler
@@ -114,13 +112,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### 4. Veri setini indir
+### 4. Veri seti
 
-UCI ML Repository'den veri setini indir:
-- https://archive.ics.uci.edu/dataset/352/online+retail
-- Alternatif olarak Kaggle'dan: `kaggle datasets download -d mashlyn/online-retail-ii-uci`
-
-İndirilen `Online Retail.xlsx` dosyasını CSV'ye dönüştürüp `data/data.csv` olarak kaydet.
+Veri seti repoda `data/data.csv` olarak mevcuttur, ekstra indirme gerekmez.
 
 ### 5. Notebook'u çalıştır
 
