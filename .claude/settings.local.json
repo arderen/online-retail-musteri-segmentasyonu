@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "Bash(mkdir -p gorseller)",
+      "Bash(python -c \"import nbformat; print\\('nbformat ok'\\)\")",
+      "Bash(python \"C:\\\\Users\\\\ARDA\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-ARDA-Desktop-online-retail-proje\\\\188a254d-1af9-4421-9000-55ae9f0a1bc8\\\\scratchpad\\\\gen_notebook.py\")",
+      "Bash(python -m jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=120 notebook.ipynb --output notebook_test_out.ipynb)",
+      "Bash(python -m jupyter nbconvert --to notebook --execute --ExecutePreprocessor.timeout=180 notebook.ipynb --output notebook_test_out.ipynb)",
+      "Bash(del notebook_test_out.ipynb)",
+      "Bash(rm \"c:\\\\Users\\\\ARDA\\\\Desktop\\\\online-retail-proje\\\\notebook_test_out.ipynb\" && echo \"temizlendi\")"
+    ],
+    "additionalDirectories": [
+      "c:\\Users\\ARDA\\Desktop\\online-retail-proje"
+    ]
+  }
+}
